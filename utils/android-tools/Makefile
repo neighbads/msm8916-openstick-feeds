@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 
 
 PKG_NAME:=android-tools
-PKG_VERSION:=4.2.2+git20130218
+PKG_VERSION:=4.2.2
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/lkiuyu/android-tools.git
