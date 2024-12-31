@@ -8,7 +8,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=qcom-firmware
-PKG_VERSION:=r1034.2.1
+PKG_VERSION:=1034.2.1
 PKG_RELEASE:=2
 
 PKG_SOURCE_PROTO:=git
