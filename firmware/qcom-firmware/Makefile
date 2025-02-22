@@ -12,7 +12,7 @@ PKG_VERSION:=1034.2.1
 PKG_RELEASE:=2
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/lkiuyu/qcom-firmware.git
+PKG_SOURCE_URL:=https://github.com/neighbads/msm8916-openstick-feeds.git
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_SOURCE_VERSION:=0766024bed8c8e7c9fc6029c7662dcb55d801dbd
 PKG_MIRROR_HASH:=acb974a58dd2c5ea8b865114d4e49dac830499dd058933b25d2be1e69e0db902
