@@ -85,186 +85,223 @@ endef
 define Package/qcom-apq8016-wcnss-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm apq8016 WIFI & Bluetooth firmware
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_apq8016
 endef
 
 define Package/qcom-msm8916-openstick-ufi001b-wcnss-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Openstick UFI001B WIFI & Bluetooth firmware
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-ufi001b
 endef
 
 define Package/qcom-msm8916-openstick-ufi001c-wcnss-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Openstick UFI001C WIFI & Bluetooth firmware
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-ufi001c
 endef
 
 define Package/qcom-msm8916-openstick-ufi003-wcnss-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Openstick UFI003 WIFI & Bluetooth firmware
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-ufi003
 endef
 
 define Package/qcom-msm8916-openstick-ufi103s-wcnss-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Openstick UFI103S WIFI & Bluetooth firmware
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-ufi103s
 endef
 
 define Package/qcom-msm8916-openstick-sp970-wcnss-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Openstick SP970 WIFI & Bluetooth firmware
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-sp970
 endef
 
 define Package/qcom-msm8916-openstick-uz801-wcnss-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Openstick UZ801 WIFI & Bluetooth firmware
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-uz801
 endef
 
 define Package/qcom-msm8916-openstick-qrzl903-wcnss-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Openstick QRZL903 WIFI & Bluetooth firmware
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-qrzl903
 endef
 
 define Package/qcom-msm8916-openstick-w001-wcnss-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Openstick W001 WIFI & Bluetooth firmware
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-w001
 endef
 
 define Package/qcom-msm8916-openstick-mf32-wcnss-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Openstick MF32 WIFI & Bluetooth firmware
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-mf32
 endef
 
 define Package/qcom-msm8916-openstick-mf601-wcnss-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Openstick MF601 WIFI & Bluetooth firmware
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-mf601
 endef
 
 define Package/qcom-msm8916-wt8x047-wcnss-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Redmi 2 WIFI & Bluetooth firmware
+  DEPENDS:=@(TARGET_msm89xx_msm8916_DEVICE_wt88047||TARGET_msm89xx_msm8916_DEVICE_wt86047)
 endef
 
 define Package/qcom-apq8016-wcnss-nv
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm apq8016 WIFI nv data
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_apq8016
 endef
 
 define Package/qcom-msm8916-wcnss-wt88047-nv
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 WIFI nv data for Wingtech Wt88047
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_wt88047
 endef
 
 define Package/qcom-msm8916-wcnss-openstick-ufi001b-nv
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 WIFI nv data for Handsome Openstick UFI001B
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-ufi001b
 endef
 
 define Package/qcom-msm8916-wcnss-openstick-ufi001c-nv
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 WIFI nv data for Handsome Openstick UFI001C
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-ufi001c
 endef
 
 define Package/qcom-msm8916-wcnss-openstick-ufi003-nv
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 WIFI nv data for Handsome Openstick UFI003
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-ufi003
 endef
 
 define Package/qcom-msm8916-wcnss-openstick-ufi103s-nv
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 WIFI nv data for Handsome Openstick UFI103S
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-ufi103s
 endef
 
 define Package/qcom-msm8916-wcnss-openstick-sp970-nv
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 WIFI nv data for Handsome Openstick SP970
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-sp970
 endef
 
 define Package/qcom-msm8916-wcnss-openstick-uz801-nv
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 WIFI nv data for Handsome Openstick UZ801
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-uz801
 endef
 
 define Package/qcom-msm8916-wcnss-openstick-qrzl903-nv
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 WIFI nv data for Handsome Openstick QRZL903
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-qrzl903
 endef
 
 define Package/qcom-msm8916-wcnss-openstick-w001-nv
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 WIFI nv data for Handsome Openstick W001
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-w001
 endef
 
 define Package/qcom-msm8916-wcnss-openstick-mf32-nv
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 WIFI nv data for Handsome Openstick MF32
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-mf32
 endef
 
 define Package/qcom-msm8916-wcnss-openstick-mf601-nv
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 WIFI nv data for Handsome Openstick MF601
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-mf601
 endef
 
 define Package/qcom-apq8016-modem-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm apq8016 modem firmware
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_apq8016
 endef
 
 define Package/qcom-msm8916-modem-wt88047-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 modem firmware for wingtech wt88047
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_wt88047
 endef
 
 define Package/qcom-msm8916-modem-wt86047-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 modem firmware for wingtech wt86047
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_wt86047
 endef
 
 define Package/qcom-msm8916-modem-openstick-ufi001b-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 modem firmware for Handsome Openstick UFI001B
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-ufi001b
 endef
 
 define Package/qcom-msm8916-modem-openstick-ufi001c-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 modem firmware for Handsome Openstick UFI001C
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-ufi001c
 endef
 
 define Package/qcom-msm8916-modem-openstick-ufi003-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 modem firmware for Handsome Openstick UFI003
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-ufi003
 endef
 
 define Package/qcom-msm8916-modem-openstick-ufi103s-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 modem firmware for Handsome Openstick UFI103S
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-ufi103s
 endef
 
 define Package/qcom-msm8916-modem-openstick-sp970-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 modem firmware for Handsome Openstick SP970
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-sp970
 endef
 
 define Package/qcom-msm8916-modem-openstick-uz801-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 modem firmware for Handsome Openstick UZ801
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-uz801
 endef
 
 define Package/qcom-msm8916-modem-openstick-qrzl903-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 modem firmware for Handsome Openstick QRZL903
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-qrzl903
 endef
 
 define Package/qcom-msm8916-modem-openstick-w001-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 modem firmware for Handsome Openstick W001
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-w001
 endef
 
 define Package/qcom-msm8916-modem-openstick-mf32-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 modem firmware for Handsome Openstick MF32
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-mf32
 endef
 
 define Package/qcom-msm8916-modem-openstick-mf601-firmware
   $(Package/qcom-firmware-default)
   TITLE:=Qualcomm msm8916 modem firmware for Handsome Openstick MF601
+  DEPENDS:=@TARGET_msm89xx_msm8916_DEVICE_openstick-mf601
 endef
 
 define Package/qcom-apq8016-wcnss-firmware/install
